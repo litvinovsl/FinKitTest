@@ -44,6 +44,7 @@
 } */
 
 .header__finkit-prew {
+    z-index: 1;
     width: 384px;
     padding-left: 209px;
     padding-top: 78px;
@@ -119,9 +120,8 @@
     margin-top: 197px;
     position: absolute;
     bottom: -40px;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%);
+    left:50%; 
+    margin-left:-512px;
 }
 
 .description__content{
@@ -134,6 +134,7 @@
     width: 201px;
     height: 66px;
     padding: 22px 20px 30px;
+    box-shadow: 5px 5px 5px -7px;
 }
 
 .description__text{
